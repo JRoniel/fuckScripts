@@ -14,5 +14,3 @@ print(f"Local: {data.json().get('name')}, {data.json().get('sys').get('country')
 print(f"Temperatura: {data.json().get('main')['temp']}°C")
 print(f"Clima: {data.json().get('weather')[0].get('description')}")
 print(f"Umidade: {data.json().get('main')['humidity']}%")
-
-# Credits @code_snail
