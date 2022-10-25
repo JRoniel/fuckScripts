@@ -1,7 +1,10 @@
+# FUNCIONALIDADES:
+# CONSULTA DADOS METEOROLOGICOS DE UMA CIDADE INFORMADO PREVIAMENTE
+
 import requests
 
 # Key para acessar a API openwathermap
-api_key = "4256b3de394a56a86ee35e43af6f5c2e"
+api_key = "API_KEY"
 
 # Entrada com o nome da cidade
 city = input("Cidade: ")
